@@ -1048,6 +1048,8 @@
 		width: 100%;
 	}
 
+	#one a, #one a:counter { color: #11ABB0; }
+
 /* Footer */
 
 	#footer {
