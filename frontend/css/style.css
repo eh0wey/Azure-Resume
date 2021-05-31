@@ -1048,7 +1048,21 @@
 		width: 100%;
 	}
 
-	#one a, #one a:counter { color: #11ABB0; }
+	#one a, #counter a:visited  { color: rgb(7, 6, 6); }
+	#counter a:hover, #counter a:focus { color: #11ABB0; }
+
+	a, a:visited {
+		text-decoration: none;
+		outline: 0;
+		color: #11ABB0;
+	 
+		-webkit-transition: color .3s ease-in-out;
+		-moz-transition: color .3s ease-in-out;
+		-o-transition: color .3s ease-in-out;
+		transition: color .3s ease-in-out;
+	 }
+	 a:hover, a:focus { color: #313131; }
+	 p a, p a:visited { line-height: inherit; }
 
 /* Footer */
 
