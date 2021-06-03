@@ -2,9 +2,6 @@
 
 View it live [here](https://www.erichowey.net)
 
-
-![Diagram](img/diagram.png)
-
 ## Prerequisites
 
 - [GitHub account](https://github.com/join)
@@ -22,7 +19,7 @@ View it live [here](https://www.erichowey.net)
 
 The front-end is a static site with HTML, CSS, and JavaScript. It's static and has a visitor counter. The visitor counter data fetched via an API call to an Azure Function.
 
-- I used this [template](https://www.styleshout.com/free-templates/ceevee/) to create my site. 
+- I used this [template](https://www.styleshout.com/free-templates) to create my site. 
 - I used this [article](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data) explains well and in a simple way how to use it to make an API call.
 - [Azure storage explorer is a handy tool to use when working with Storage Accounts](https://azure.microsoft.com/en-us/features/storage-explorer/)
 - This is how you can [deploy static site to blob storage.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host)
